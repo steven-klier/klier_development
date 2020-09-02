@@ -1,0 +1,160 @@
+/* colors: 142850  27496d  00909e  dae1e7 */
+/* colors: 272343  ffffff  e3f6f5  bae8e8 */
+/* colors: f9f7f7  dbe2ef  3f72af  112d4e */
+
+.container {
+    position: relative;
+  }
+
+a.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3f72af;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+div.text {
+    color: #f9f7f7;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#navbar-brand {
+    color: #272343;
+    text-align: center;
+}
+
+#navbar {
+    padding: 3% 3% 2% 3%;
+    background-color: #f9f7f7;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+h1 {
+    text-align: left;
+    color: #112d4e;
+    font-size: 100px;
+    font-weight: 400; 
+}
+
+hr {
+    margin: 0px auto 0px auto;
+    color: #112d4e;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left:0px;
+}
+
+.headings {
+    text-align: left;
+    position: relative;
+    right: 800px;
+}
+
+#portfolio-heading {
+    text-align:center;
+    font-size: 60px;
+    padding: 2%;
+    color: #f9f7f7;
+}
+
+#contact-heading {
+    text-align:center;
+    font-size: 60px;
+    padding: 2%;
+    color: #112d4e;
+}
+
+#introduction {
+    font-size: 38px;
+}
+
+label {
+    font-size: 20px;
+    color: #112d4e;
+}
+
+.social-media {
+    color: #f9f7f7;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.social-media:hover {
+    color: #dbe2ef;
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+}
+
+/* sections */
+#landing {
+    background-color: #f9f7f7;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 11%;
+}
+
+#portfolio {
+    background-color: #112d4e;
+    padding-bottom: 9%;
+    padding-top: 4%;
+}
+
+#contact {
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+footer {
+    background-color: #112d4e;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* media queries */
+@media only screen and (max-width: 992px) {
+    h1 {
+        text-align: center;
+    }
+
+    #introduction {
+        text-align: center;
+    }
+}
